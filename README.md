@@ -14,4 +14,4 @@ This is a simple Java-based menu-driven application to manage student records us
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/StudentManagement.git
+   git clone https://github.com/GaurabSingh012/StudentManagement.git
