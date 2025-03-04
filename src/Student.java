@@ -1,13 +1,12 @@
 import java.util.Date;
 
-public class Student{
+public class Student {
     private String prn;
     private String name;
-    private Date dob; 
+    private Date dob;
     private double marks;
 
-    public Student(String prn, String name, Date dob, double marks)
-    {
+    public Student(String prn, String name, Date dob, double marks) {
         this.prn = prn;
         this.name = name;
         this.dob = dob;
@@ -46,7 +45,7 @@ public class Student{
         this.marks = marks;
     }
 
-    public void display(){
-        System.out.println("PRN : " + prn + " , Name: " + name + " DOB: " + dob + " , Marks: " + marks);
+    public void display() {
+        System.out.println("PRN: " + prn + ", Name: " + name + ", DOB: " + dob + ", Marks: " + marks);
     }
 }

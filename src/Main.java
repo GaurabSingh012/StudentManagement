@@ -18,7 +18,7 @@ public class Main{
             System.out.println("7. Exit");
             System.out.println(" Enter your choice");
 
-            int choice = Scanner.nextInt();
+            int choice = scanner.nextInt();
             switch(choice){
                 case 1:
                     manager.addStudent();
@@ -27,10 +27,10 @@ public class Main{
                     manager.displayStudents();
                     break;
                 case 3:
-                    manager.SearchByPrn();
+                    manager.searchByPrn();
                     break;
                 case 4:
-                    manager.SearchByName();
+                    manager.searchByName();
                     break;
                 case 5:
                     manager.updateStudent();
